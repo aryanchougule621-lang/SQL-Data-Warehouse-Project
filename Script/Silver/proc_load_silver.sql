@@ -255,7 +255,7 @@ BEGIN
             CASE
                 WHEN UPPER(TRIM(gen)) IN ('F', 'FEMALE') THEN 'Female'
                 WHEN UPPER(TRIM(gen)) IN ('M', 'MALE') THEN 'Male'
-                ELSE 'n/a'
+                ELSE 'N/A'
             END AS gen
         FROM Bronze.erp_cust_az12;
 
